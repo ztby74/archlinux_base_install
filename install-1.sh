@@ -26,7 +26,6 @@ mount   /dev/sda4/  mnt/home
 mkdir    /mnt/boot/EFI
 mount   /dev/sda1    /mnt/boot/EFI
 
-reflector   -c  China  -f  10  --save   /etc/pacman.d/mirrorlist
 
 
 
